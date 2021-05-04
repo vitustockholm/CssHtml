@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(214, 247, 255, 0.7);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  padding-right: 15px;
+  padding-left: 20px;
+  font-size: 32px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  padding: 20px 27px;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #38b6e6;
+  color: white;
+}
