@@ -1,0 +1,109 @@
+.box-1 {
+  background-image: url(./templates/QmSEVCBGoYshoKDCp3jwpG7E76cGqDrU5Q5ftzvYZyKCzR-1024x632.jpg);
+}
+
+.box-2 {
+  background-image: url(./templates/Tropical-2020.jpg);
+}
+
+.box-3 {
+  background-image: url(./templates/nft-art-beeple-gID_4.jpg);
+}
+
+.box-4 {
+  background-image: url(./templates/nft-art.jpg);
+}
+
+.box-5 {
+  background-image: url(./templates/nft-digital-art-that-changes-with-bitcoin-price-volatility-sold-for-record-101000.jpg);
+}
+
+.box-6 {
+  background-image: url(./templates/cryptoart-hashmasks-750x450.jpg);
+}
+.box-7 {
+  background-image: url(./templates/blck_soft_PX.jpg);
+}
+
+.box-8 {
+  background-image: url(./templates/1b959079-ab4f-4bef-85bc-62fde5cb8498.jpg);
+}
+
+.box-9 {
+  background-image: url(./templates/3de16c8dfee9d27b72e1571f495e39bcd084a9fb2a30991198e89a8037923667.jpeg);
+}
+
+.box-10 {
+  background-image: url(./templates/beeple-bitcoin-bull.jpg);
+}
+.box-11 {
+  background-image: url(./templates/BIC_BNB-01.jpg);
+}
+.box-12 {
+  background-image: url(./templates/BIC_tokenization_art_NFT.jpg.optimal.jpg);
+}
+.box-13 {
+  background-image: url(./templates/btc-auction.jfif);
+}
+.box-14 {
+  background-image: url(./templates/Hello-World-1024x576.png);
+}
+.box-15 {
+  background-image: url(./templates/nft-art.jpg);
+}
+.box-16 {
+  background-image: url(./templates/nft-digital-art-that-changes-with-bitcoin-price-volatility-sold-for-record-101000.jpg);
+}
+.fluid-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.layer {
+  background-color: rgba(236, 249, 252, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.content-txt {
+  /* display: none; */
+  opacity: 0;
+  text-align: center;
+  padding: 5px 15px;
+  text-shadow: 2px 2px 6px #000;
+}
+
+.content-title {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  font-weight: 400;
+}
+
+.content-box:hover .content-txt,
+.content-box:hover .content-title {
+  transition: all 0.3s linear;
+  display: block;
+  opacity: 1;
+  transform: translateY(-1.3em);
+}
+
+.content-box:hover .layer {
+  background: linear-gradient(transparent, rgba(214, 247, 255, 0.8));
+}
